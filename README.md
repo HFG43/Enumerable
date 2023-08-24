@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <h3><b>Decode Morse</b></h3>
+  <h3><b>Enumerable</b></h3>
 
 </div>
 
@@ -24,7 +24,7 @@
 
 # 📖 Enumerable <a name="about-project"></a>.
 
-**Enumerable** is a first project usign Ruby to practice use of methods and apply best practices while creating a morse decoder.
+**Enumerable** is a project usign Ruby to practice use of methods, class and modules, and apply best practices and Ruby styles while using Enumerable methods.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,13 +34,15 @@
 <summary>Ruby</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/es/">Ruby</a></li>
+    <li><a href="https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md">Ruby styles guide</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
 - **Use Gitflow**
-- **Add decode.rb that is a program to decode a morse message**
+- **Add enumerable.rb that is a module that contains the methods all?, any? and filter**
+- **Add my_list.rb that is a class that uses the enumerable module**
 - **Ruby linters**
 - **Work doing pair programming**
 
@@ -59,8 +61,8 @@ In order to run this project you need to have Ruby installed, check [this](https
 
 Clone this repository to your desired folder:
 
-  cd my-folder
-  git clone https://github.com/AndreaM2429/Ruby_decode_morse
+  cd my-folder https://github.com/HFG43/Enumerable
+  git clone 
 
 ### Usage
 
@@ -81,6 +83,11 @@ To check the linters you can use the command:
   rubocop
 ```
 
+To fix the linter use: 
+
+```sh
+  rubocop --fix
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +109,7 @@ To check the linters you can use the command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add feature to get data to be decode through console line**
+- [ ] **Add more enumerable methods**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +117,7 @@ To check the linters you can use the command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/HFG43/Enumerable/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
